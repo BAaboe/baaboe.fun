@@ -147,19 +147,20 @@ textarea {
  box-sizing: border-box;
 }
 body {
+    background-color: #000000;
     min-width: 320px;
     min-height: var(--viewport-height);
     line-height: 1.0;
     word-wrap: break-word;
     overflow-x: hidden;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation {
     0% {
-        opacity: 0.5;
+        opacity: 0;
     }
     100% {
         opacity: 1;
@@ -182,7 +183,7 @@ body:before {
  background-position: 0% 0%, center;
  background-repeat: repeat, repeat;
  background-size: auto, cover;
- background-color: #FFFFFF;
+ 
 }
 body:after {
  display: block;
